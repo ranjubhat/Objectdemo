@@ -46,7 +46,7 @@ class CreateBycycleClass {
 
 const bycycleThree = new CreateBycycleClass("red", "gents", 7000);
 
-console.log(bycycleOne, bycycleTwo, bycycleThree);
+//console.log(bycycleOne, bycycleTwo, bycycleThree);
 
 //In case if we miss the this keyword for functional constructor. It will not create this object and it is added to global this object.
 //Since it is not returning any object it will be undefined.
